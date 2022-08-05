@@ -1,9 +1,8 @@
-/** @type {import('ts-jest/dist/types').InitialOptionsTsJest} */
 module.exports = {
   preset: 'ts-jest',
-  testEnvironment: 'node',
   moduleNameMapper: {
     '\\.(scss|less)$': 'identity-obj-proxy',
   },
-  updateSnapshot: true,
+  testEnvironment: 'jsdom',
+  collectCoverageFrom: ['./src/**/*.tsx'],
 };
