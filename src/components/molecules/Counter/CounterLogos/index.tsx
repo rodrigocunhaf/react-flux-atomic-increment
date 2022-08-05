@@ -1,4 +1,5 @@
 import React from 'react';
+import { LogoFrame } from '../../../atoms/Frames/LogoFrame';
 import { ParagraphyFrame } from '../../../atoms/Frames/ParagraphyFrame';
 import { DrawLogo, DrawLogoProps } from '../../../atoms/Logos/DrawLogo';
 import { ListLogo } from '../../../atoms/Logos/ListLogo';
@@ -13,10 +14,12 @@ const CounterLogos = ({ logoList }: CounterLogosProps) => (
   <ListLogo>
     {logoList.map((logo) => (
       <ListLogoItem key={logo.id}>
-        <DrawLogo
-          logoDescription={logo.logoDescription}
-          logoFileName={logo.logoFileName}
-        />
+        <LogoFrame>
+          <DrawLogo
+            logoDescription={logo.logoDescription}
+            logoFileName={logo.logoFileName}
+          />
+        </LogoFrame>
         <ParagraphyFrame>
           <Paragraphy>{logo.logoName}</Paragraphy>
         </ParagraphyFrame>

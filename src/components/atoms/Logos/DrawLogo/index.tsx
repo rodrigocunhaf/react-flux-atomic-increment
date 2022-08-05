@@ -1,4 +1,5 @@
 import React from 'react';
+import style from './index.module.scss';
 
 export type DrawLogoProps = {
   // eslint-disable-next-line react/no-unused-prop-types, react/require-default-props
@@ -11,6 +12,7 @@ export type DrawLogoProps = {
 
 const DrawLogo = ({ logoFileName, logoDescription }: DrawLogoProps) => (
   <img
+    className={style['draw-logo']}
     src={`${process.env.PUBLIC_PATH}/assets/images/logos/${logoFileName}`}
     alt={logoDescription}
   />

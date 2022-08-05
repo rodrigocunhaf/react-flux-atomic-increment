@@ -1,8 +1,5 @@
-/* eslint-disable react/require-default-props */
-/* eslint-disable react/no-unused-prop-types */
-
 import React from 'react';
-import style from './scss/index.module.scss';
+import style from './index.module.scss';
 
 export type ButtonProps = {
   children: React.ReactNode;
