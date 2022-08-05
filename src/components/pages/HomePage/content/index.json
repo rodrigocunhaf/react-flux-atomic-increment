@@ -1,0 +1,49 @@
+{
+  "counter": {
+    "counterSectionTitle": "Increment Project ",
+    "counterController": {
+      "controllerButtons": [
+        {
+          "id": "counter_button_01",
+          "name": "Decrement -1",
+          "reduceType": "DECREMENT",
+          "styleButton": "RED"
+        },
+        {
+          "id": "counter_button_02",
+          "name": "Reset",
+          "reduceType": "RESET",
+          "styleButton": "GREEN"
+        },
+        {
+          "id": "counter_button_03",
+          "name": "Increment +1",
+          "reduceType": "INCREMENT",
+          "styleButton": "BLUE"
+        }
+      ]
+    },
+    "counterLogos": {
+      "logoList": [
+        {
+          "id": "draw-logo-01",
+          "logoDescription": "logomarca representativa do typescript",
+          "logoFileName": "typescript.svg",
+          "logoName": "Typescript"
+        },
+        {
+          "id": "draw-logo-02",
+          "logoDescription": "logomarca representativa do typescript",
+          "logoFileName": "redux.svg",
+          "logoName": "Redux"
+        },
+        {
+          "id": "draw-logo-03",
+          "logoDescription": "logomarca representativa do typescript",
+          "logoFileName": "flux.svg",
+          "logoName": "Flux"
+        }
+      ]
+    }
+  }
+}

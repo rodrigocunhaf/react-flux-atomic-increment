@@ -1,0 +1,18 @@
+@use '/src/global/fonts';
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-size: 100%;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #2f72bc;
+  min-width: 320px;
+  font-family: fonts.$roboto-light;
+}

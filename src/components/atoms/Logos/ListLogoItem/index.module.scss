@@ -1,0 +1,17 @@
+.list-logo-item {
+  max-width: 9rem;
+  display: flex;
+  background-color: #ffffff;
+  border-radius: 0.2rem;
+  padding: 0 0.5rem;
+  margin: 1rem 0;
+  align-items: center;
+}
+
+@media screen and (max-width: 490px) {
+  .list-logo-item {
+    max-width: 5rem;
+    margin: 0;
+    padding: 0.5rem;
+  }
+}

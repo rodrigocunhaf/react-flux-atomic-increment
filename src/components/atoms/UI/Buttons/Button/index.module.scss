@@ -1,0 +1,28 @@
+.button {
+  width: 13rem;
+  height: 3rem;
+  font-weight: bold;
+  border: 0;
+  border-radius: 1rem;
+  color: rgb(51, 46, 46);
+  font-size: 1rem;
+  &:hover {
+    cursor: pointer;
+  }
+
+  &:not(:last-child) {
+    margin-right: 0.4rem;
+  }
+
+  &.red {
+    background-color: #ce3e3e;
+  }
+
+  &.blue {
+    background-color: #1aa6d1;
+  }
+
+  &.green {
+    background-color: #adff2f;
+  }
+}
