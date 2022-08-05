@@ -2,7 +2,7 @@
 /* eslint-disable react/no-unused-prop-types */
 
 import React from 'react';
-import style from './index.module.scss';
+import style from './scss/index.module.scss';
 
 export type ButtonProps = {
   children: React.ReactNode;
